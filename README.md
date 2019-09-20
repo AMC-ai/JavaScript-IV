@@ -7,18 +7,18 @@ This challenge focuses on classes in JavaScript using the new `class` keyword.
 
 **Follow these steps to set up and work on your project:**
 
-* [ ] Create a forked copy of this project.
-* [ ] Add your project manager as collaborator on Github.
-* [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-* [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-* [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-* [ ] Push commits: git push origin `<firstName-lastName>`.
+* [ x] Create a forked copy of this project.
+* [ x] Add your project manager as collaborator on Github.
+* [ x] Clone your OWN version of the repository (Not Lambda's by mistake!).
+* [ x] Create a new branch: git checkout -b `<firstName-lastName>`.
+* [x ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+* [ x] Push commits: git push origin `<firstName-lastName>`.
 
 **Follow these steps for completing your project.**
 
-* [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-* [ ] Add your project manager as a reviewer on the pull-request
-* [ ] Your project manager will count the project as complete by merging the branch back into master.
+* [ x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+* [ x] Add your project manager as a reviewer on the pull-request
+* [ x] Your project manager will count the project as complete by merging the branch back into master.
 
 ## Assignment Description
 
@@ -70,31 +70,31 @@ const fred = new Instructor({
 
 #### Person
 
-* First we need a Person class. This will be our `base-class`
-* Person receives `name` `age` `location` all as props
-* Person receives `speak` as a method.
-* This method logs out a phrase `Hello my name is Fred, I am from Bedrock` where `name` and `location` are the object's own props
+* xFirst we need a Person class. This will be our `base-class`
+* xPerson receives `name` `age` `location` all as props
+* xPerson receives `speak` as a method.
+* ~~This method logs out a phrase `Hello my name is Fred, I am from Bedrock` where `name` and `location` are the object's own props~~
 
 #### Instructor
 
-* Now that we have a Person as our base class, we'll build our Instructor class.
-* Instructor uses the same attributes that have been set up by Person
-* Instructor has the following unique props:
-  * `specialty` what the Instructor is good at i.e. 'redux'
-  * `favLanguage` i.e. 'JavaScript, Python, Elm etc.'
-  * `catchPhrase` i.e. `Don't forget the homies`
+* xNow that we have a Person as our base class, we'll build our Instructor class.
+* xInstructor uses the same attributes that have been set up by Person
+* xInstructor has the following unique props:
+  * x`specialty` what the Instructor is good at i.e. 'redux'
+  * x`favLanguage` i.e. 'JavaScript, Python, Elm etc.'
+  * x`catchPhrase` i.e. `Don't forget the homies`
 * Instructor has the following methods:
   * `demo` receives a `subject` string as an argument and logs out the phrase 'Today we are learning about {subject}' where subject is the param passed in.
   * `grade` receives a `student` object and a `subject` string as arguments and logs out '{student.name} receives a perfect score on {subject}'
 
 #### Student
 
-* Now we need some students!
-* Student uses the same attributes that have been set up by Person
+* xNow we need some students!
+* xStudent uses the same attributes that have been set up by Person
 * Student has the following unique props:
-  * `previousBackground` i.e. what the Student used to do before Lambda School
-  * `className` i.e. CS132
-  * `favSubjects`. i.e. an array of the student's favorite subjects ['Html', 'CSS', 'JavaScript']
+  * x`previousBackground` i.e. what the Student used to do before Lambda School
+  * x`className` i.e. CS132
+  * x`favSubjects`. i.e. an array of the student's favorite subjects ['Html', 'CSS', 'JavaScript']
 * Student has the following methods:
   * `listsSubjects` a method that logs out all of the student's favoriteSubjects one by one.
   * `PRAssignment` a method that receives a subject as an argument and logs out that the `student.name has submitted a PR for {subject}`
@@ -102,11 +102,11 @@ const fred = new Instructor({
 
 #### Project Manager
 
-* Now that we have instructors and students, we'd be nowhere without our PM's
-* ProjectManagers are extensions of Instructors
+* xNow that we have instructors and students, we'd be nowhere without our PM's
+* xProjectManagers are extensions of Instructors
 * ProjectManagers have the following unique props:
-  * `gradClassName`: i.e. CS1
-  * `favInstructor`: i.e. Sean
+  * x`gradClassName`: i.e. CS1
+  * x`favInstructor`: i.e. Sean
 * ProjectManagers have the following Methods:
   * `standUp` a method that takes in a slack channel and logs `{name} announces to {channel}, @channel standy times!​​​​​
   * `debugsCode` a method that takes in a student object and a subject and logs out `{name} debugs {student.name}'s code on {subject}`
